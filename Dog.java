@@ -1,21 +1,22 @@
 public class Dog{
 
-	private int eyes;
+	private int years;
 	private String type;
 	private String color;
+
 	public Dog(Dog d){
-		this.eyes = d.eyes;
+		this.years = d.years;
 		this.type = d.type;
 		this.color = d.color;
 	}
-	public Dog(int e, String t, String c){
-		this.eyes = e;
+	public Dog(int y, String t, String c){
+		this.years = y;
 		this.type = t;
 		this.color = c;
 	}
 
-	public void setEyes(int e){
-		this.eyes = e;
+	public void setEyes(int y){
+		this.years = y;
 	}
 
 	public void setType(String t){
@@ -26,8 +27,8 @@ public class Dog{
 		this.color = c;
 	}
 
-	public int getEyes(){
-		return this.eyes;
+	public int getYears(){
+		return this.years;
 	}
 
 	public String getType(){
