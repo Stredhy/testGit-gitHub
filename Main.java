@@ -7,6 +7,5 @@ public class Main{
 		System.out.println("Rama testGit");
 		myStr = cs.nextLine();	
 		System.out.println(myStr);
-		
 	}
 }
