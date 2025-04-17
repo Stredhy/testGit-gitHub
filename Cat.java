@@ -4,10 +4,10 @@ public class Cat{
 	private String type;
 	private String color;
 
-	public Dog(Cat d){
-		this.years = d.years;
-		this.type = d.type;
-		this.color = d.color;
+	public Cat(Cat c){
+		this.years = c.years;
+		this.type = c.type;
+		this.color = c.color;
 	}
 	public Cat(int y, String t, String c){
 		this.years = y;
