@@ -1,15 +1,15 @@
-public class Dog{
+public class Cat{
 
 	private int years;
 	private String type;
 	private String color;
 
-	public Dog(Dog d){
+	public Dog(Cat d){
 		this.years = d.years;
 		this.type = d.type;
 		this.color = d.color;
 	}
-	public Dog(int y, String t, String c){
+	public Cat(int y, String t, String c){
 		this.years = y;
 		this.type = t;
 		this.color = c;
