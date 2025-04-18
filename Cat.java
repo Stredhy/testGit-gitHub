@@ -4,7 +4,7 @@ public class Cat{
 	private String type;
 	private String color;
 
-	public Cat(Dog c){
+	public Cat(Cat c){
 		this.years = c.years;
 		this.type = c.type;
 		this.color = c.color;
